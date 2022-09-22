@@ -1,52 +1,25 @@
-
-body{
-    background-color: #EACCC2;
+.body{
+    background-color: blanchedalmond;
     margin: 0;
 }
-.around{
-    display: flex; justify-content: space-around;
-
+.header{
+    margin: 0;
 }
-.center{
-    display: flex; justify-content: center;
-
+.head{
+    background-color: bisque;
 }
-.text{
-    width: 400px
-}
-header{
+.lei{
     display: flex;
-    background-color: bisque;
-    justify-content: space-around;
-    height: 50px;
+    justify-content: flex-end;
 }
-p{
-    font-family: 'DynaPuff', cursive;
-}
-.zagalovok{
-    font-family: 'Montserrat', sans-serif;
-    width: 400px;
-}
-.color{
-    background-color: bisque;
-}
-.around_start{
-    display: flex; 
-    justify-content: space-around;
-    align-items: flex-start;
-}
-.diagonal-gradient {
-    background: linear-gradient(to bottom right, blue, pink);
-  }
-.start{
+.prvi{
     display: flex;
     justify-content: flex-start;
 }
-.a{
-    display: inline-block;
-    color: aquamarine;
-    background-color: rgb(30, 185, 43);
-    text-decoration: none;
-    padding: 12px 32px ;
-    border-radius: 6px ;
+.pi{
+    font-size: 40px;
+}
+.din{
+    display: flex;
+    justify-content: space-between;
 }
