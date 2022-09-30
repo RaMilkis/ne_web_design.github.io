@@ -1,26 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:ital,wght@0,200;1,100&family=Silkscreen&display=swap');
-.body{
-    background-color: blanchedalmond;
+.ubgthccskrf:hover{
+    background-color: aqua;
+
+}
+body{
+    background-color: #EACCC2;
     margin: 0;
 }
-.header{
-    margin: 0;
+.around{
+    display: flex; justify-content: space-around;
+
 }
+.center{
+    display: flex; justify-content: center;
 
-
-.lei{
+}
+.text{
+    width: 400px
+}
+header{
     display: flex;
-    justify-content: flex-end;
+    background-color: bisque;
+    justify-content: space-around;
+    height: 50px;
 }
-.prvi{
+p{
+    font-family: 'DynaPuff', cursive;
+}
+.zagalovok{
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
+}
+.color{
+    background-color: bisque;
+}
+.around_start{
+    display: flex; 
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.diagonal-gradient {
+    background: linear-gradient(to bottom right, blue, pink);
+  }
+.start{
     display: flex;
     justify-content: flex-start;
-}
-.pi{
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
-}
-.din{
-    display: flex;
-    justify-content: space-between;
 }
